@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Input } from "@nextui-org/react";
 
 const LeadInfo = () => {
     return (
@@ -28,6 +29,44 @@ const LeadInfo = () => {
                     <button className="py-2 px-4 text-gray-600">Lead Details</button>
                     <button className="py-2 px-4 text-gray-600">Teams</button>
                     <button className="py-2 px-4 text-[#3c5365] border-b-2 border-[#3c5365]">Other Contact</button>
+                </div>
+            </section>
+
+            {/* Details Section */}
+            <section className="details mt-6">
+                <div className="flex space-x-4 justify-between">
+                    <div className="flex flex-col">
+                        <label htmlFor="account" className="text-black  mb-2 font-bold">Account</label>
+                        <select id="contact" className="border rounded px-4 py-2">
+                            <option value="">Select Option</option>
+                        </select>
+                    </div>
+                    <div className="flex flex-col pr-10">
+                        <label htmlFor="contact" className="text-black mb-2 font-bold">Contact</label>
+                        <select id="contact" className="border rounded px-4 py-2">
+                            <option value="">Select Option</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="flex flex-col space-y-4 mt-4">
+                    <div className="flex justify-between">
+                        <div className="flex flex-col">
+                            <p className="text-xl text-blue-500">Utsav Sharma</p>
+                            <p className="text-sm text-gray-500">Associate VP</p>
+                        </div>
+                        <div className="flex items-center">
+                            <h3 className="font-bold">Sales Head</h3>
+                        </div>
+                    </div>
+                    <div className="flex justify-between">
+                        <div className="flex flex-col">
+                            <p className="text-xl text-blue-500">Swarma Ustav</p>
+                            <p className="text-sm text-gray-500">Associate VP</p>
+                        </div>
+                        <div className="flex items-center">
+                            <h3 className="font-bold">Sales Head</h3>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
