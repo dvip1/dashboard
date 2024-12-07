@@ -1,6 +1,6 @@
 import { MdDashboard } from "react-icons/md";
 import { IoBagRemove } from "react-icons/io5";
-import { FcAndroidOs } from "react-icons/fc";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 import { BsFillSunFill } from "react-icons/bs";
 import { ImArrowDownLeft2 } from "react-icons/im";
 
@@ -14,7 +14,7 @@ export default function SideBar() {
         <IoBagRemove className="text-2xl" />
       </div>
       <div className="flex items-center space-x-2">
-        <FcAndroidOs className="text-2xl" />
+        <HiOutlineOfficeBuilding className="text-2xl" />
       </div>
       <div className="flex items-center space-x-2">
         <BsFillSunFill className="text-2xl" />
